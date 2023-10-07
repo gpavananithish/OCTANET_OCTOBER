@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISRO</title>
+    <link rel="stylesheet" href="stl.css" />
+    <link
+      rel="shortcut icon"
+      href="https://tse2.mm.bing.net/th?id=OIP.Fr8PGJ1jLUwxcR0iBr1O3QE-DE&pid=Api&P=0&h=180.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        background: url(bgimg1.jpg);
+        background-size: cover;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .left {
+        padding-left: 30px;
+        display: flex;
+      }
+      .left h2 {
+        border: 1px solid aliceblue;
+        border-radius: 6px;
+        color: aliceblue;
+
+        text-align: center;
+        width: 50px;
+        height: 30px;
+        font-weight: 500;
+        transition: 0.5s;
+      }
+      .left h2:hover {
+        transform: scale(1.12);
+      }
+      .left h1 {
+        color: aliceblue;
+        padding-left: 5px;
+        padding-top: -20px;
+      }
+      .right {
+        padding-right: 20px;
+        padding-top: 30px;
+      }
+      .right a {
+        margin: 10px;
+        width: max-content;
+        font-size: 20px;
+        font-weight: 400;
+        color: aliceblue;
+        text-decoration: none;
+        position: relative;
+      }
+      .right a::before {
+        content: "";
+        width: 0;
+        height: 3px;
+        background: rgba(6, 220, 248, 0.914);
+        position: absolute;
+        bottom: -6px;
+        transition: 0.3s ease;
+      }
+      .right a:hover::before {
+        width: 100%;
+      }
+      .main {
+        display: flex;
+        background: rgb(255, 255, 255);
+        margin-left: 60px;
+        width: 1300px;
+        height: 600px;
+        border: 0.5px solid white;
+        border-radius: 8px;
+      }
+      .main h1 {
+        text-transform: uppercase;
+        color: rgb(6, 7, 7);
+        font-size: 35px;
+        letter-spacing: 2px;
+        width: 300px;
+      }
+      .info {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        height: 400px;
+        width: 500px;
+        margin-left: 30px;
+        margin-top: 50px;
+      }
+      .info a {
+        margin-top: 20px;
+        margin-left: 80px;
+        text-decoration: none;
+        text-align: center;
+        background: rgb(19, 215, 19);
+        padding: 6px;
+        width: 120px;
+        border-radius: 15px;
+        font-size: larger;
+        transition: background, border 0.3s;
+      }
+      .info a:hover {
+        background: rgb(255, 255, 255);
+        border: 1px solid black;
+      }
+      .icons {
+        display: flex;
+        justify-content: center;
+      }
+      .icons i {
+        position: relative;
+        margin: 50px;
+        font-size: 40px;
+        bottom: 100px;
+        left: -20px;
+        right: 200px;
+        transition: 0.3s;
+      }
+      .icons i:hover {
+        transform: scale(1.15);
+      }
+      img {
+        width: 500px;
+        height: 500px;
+        margin-left: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left">
+        <h2>Isro</h2>
+        <h1>india</h1>
+      </div>
+      <div class="right">
+        <a href="#">Home</a>
+        <a href="#">Our Missions</a>
+        <a href="#">Services</a>
+        <a href="#">Programmes</a>
+        <a href="#">Findings</a>
+        <a href="#">About us</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="info">
+        <h1 style="color: coral">Indian space research organization</h1>
+        <p style="font-size: 20px">
+          Explore fore the information related to space.<br />
+          “Those who harass humans on earth are intensifying their efforts to
+          build their homes in the skies.”<br />
+          -------------ISRO---------------
+        </p>
+        <a href="#">Get Started</a>
+      </div>
+      <div class="image">
+        <img
+          src="https://edterra.com/wp-content/uploads/2020/01/Mask-Group-4.png"
+          alt="rocket"
+        />
+      </div>
+    </div>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-square-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </body>
+</html>
